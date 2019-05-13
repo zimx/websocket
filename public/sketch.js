@@ -40,7 +40,7 @@ function setup() {
   cnv.parent('sketch-holder');
    
   background(200, 20, 120);
-  textSize(24); // sets the font size
+  textSize(20); // sets the font size
   //stroke(0); // text renders with stroke, too
   //textFont('Purisa'); // will automatically work with any font on your local machine
   //textStyle(BOLD); // takes NORMAL, ITALIC or BOLD
