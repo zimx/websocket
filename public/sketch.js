@@ -40,11 +40,12 @@ function setup() {
   cnv.parent('sketch-holder');
    
   background(0,0,0);
-  textSize(20); // sets the font size
+  textSize(30); // sets the font size
   fill(200, 20, 100,);
   //textFont('Purisa'); // will automatically work with any font on your local machine
   //textStyle(BOLD); // takes NORMAL, ITALIC or BOLD
   text(" WELCOME TO ET AMBO TAKEOVER ", 150, 400);
+  text(" play.rch.studio ", 150, 450);
   text("LET'S  PAINT THE CANVAS TOGETHER!", 130, 730);
   
 
