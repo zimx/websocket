@@ -39,9 +39,9 @@ function setup() {
   centerCanvas();
   cnv.parent('sketch-holder');
    
-  background(200, 20, 120);
+  background(0,0,0);
   textSize(20); // sets the font size
-  //stroke(0); // text renders with stroke, too
+  fill(200, 20, 100,);
   //textFont('Purisa'); // will automatically work with any font on your local machine
   //textStyle(BOLD); // takes NORMAL, ITALIC or BOLD
   text(" WELCOME TO ET AMBO TAKEOVER ", 150, 400);
@@ -68,13 +68,12 @@ function setup() {
 
 function draw() {
   textSize(20);
-  text(" GO TO PLAY.RCH.STUDIO ", 220, 800);
   
 }
 
 function mouseDragged() {
   // Draw some white circles
-  fill(10,random(255),0);
+  fill(random(255),random(255),random(255));
   //noStroke();
   stroke(255, 204, 0);
 
