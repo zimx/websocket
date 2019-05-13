@@ -44,7 +44,7 @@ function setup() {
   //stroke(0); // text renders with stroke, too
   //textFont('Purisa'); // will automatically work with any font on your local machine
   //textStyle(BOLD); // takes NORMAL, ITALIC or BOLD
-  text("WELCOME TO ET AMBO TAKEOVER ", 150, 400);
+  text(" WELCOME TO ET AMBO TAKEOVER ", 150, 400);
   text("LET'S  PAINT THE CANVAS TOGETHER!", 130, 730);
   
 
@@ -67,7 +67,8 @@ function setup() {
 }
 
 function draw() {
-  
+  textSize(20);
+  text(" GO TO PLAY.RCH.STUDIO ", 220, 800);
   
 }
 
